@@ -1,0 +1,25 @@
+1 Folder Structure
+	- api 
+		- roles
+			- roles_models.js
+			- roles_controllers.js
+			- roles_routes.js
+2 camelCase convention for filename, variable name, etc
+3 code should be proper intended
+4 update the excel sheet properly
+5 for search i.e. get request : pass the values through url (max 3 values)
+6 for post and patch pass the data from body.
+- gitignore should have following file path
+	- node_modules
+	- nodemon.js
+	- app.js
+
+
+For roles collections
+===============================
+- for create/insert make sure role name is not duplicated
+- while updating also role name should not be duplicated
+
+
+
+

@@ -1,0 +1,79 @@
+Main Product : Neshwa
+
+Sub Products : 
+		- Login and Signup
+		- Social Networking
+		- Bazaar
+
+Sub Sub Products:
+		- Login and Signup
+		- Social Networking
+			- User Creation
+			- Update User Profile
+			- Settings
+			- Post
+			- Story
+			- Group
+				- Create Group
+				- Group Invites
+				- Group Posts
+					- Create Posts
+					- View Posts
+			- Goals & Dreams
+				- Career Goals
+					- Add Career Goals
+					- View Career Goals
+				- Financial Goals
+					- Add Financial Goals
+					- View Financial Goals
+				- Family Goals
+					- Add Family Goals
+					- View Family Goals
+				- Health Goals
+					- Add Health Goals
+					- View Health Goals
+			- Calender
+				- Calender Settings
+				- Calender view
+				- Calender Booking
+			- Media
+				- Favourite
+					- Add Favourite
+					- View Favourite
+				- Photos
+					- Add Photos
+					- View Photos
+				- Videos
+					- Add Videos
+					- View Videos
+				- Articles
+					- Add Articles
+					- View Articles
+			- View User Profile
+				- Media
+					- Favourite
+						- View Favourite
+					- Photos
+						- View Photos
+					- Videos
+						- View Videos
+					- Articles
+						- View Articles
+				- Calender View
+				- Goals & Dreams
+					- Career Goals
+						- View Career Goals
+					- Financial Goals
+						- View Financial Goals
+					- Family Goals
+						- View Family Goals
+					- Health Goals
+						- View Health Goals
+				- Calender
+					- Calender view
+				- Post
+				- Story
+				- Group
+					- Group Details
+					- Group Posts
+

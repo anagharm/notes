@@ -1,0 +1,87 @@
+1. To Do App
+	
+	This one is the simple project where you can add list of items to do and mark its status whether completed or not. It can also help you give end date and time of the task. It also sends you the remainder before the end time.
+
+	User wise list can be maintain.
+
+2. Number Guessing :
+
+	This is one of the simple python projects yet an exciting one. You can even call it a mini-game. Make a program in which the computer randomly chooses a number between 1 to 10, 1 to 100, or any range. Then give users a hint to guess the number. Every time the user guesses wrong, he gets another clue, and his score gets reduced. The clue can be multiples, divisible, greater or smaller, or a combination of all.
+
+	You will also need functions to compare the inputted number with the guessed number, to compute the difference between the two, and to check whether an actual number was inputted or not in this python project.
+
+3. Dice Rolling Simulator
+
+	As the name of the program suggests, we will be imitating a rolling dice. This is one of the interesting python projects and will generate a random number each dice the program runs, and the users can use the dice repeatedly for as long as he wants. When the user rolls the dice, the program will generate a random number between 1 and 6 (as on a standard dice).
+
+	The number will then be displayed to the user. It will also ask users if they would like to roll the dice again. The program should also include a function that can randomly grab a number within 1 to 6 and print it. This beginner-level python projects will help build a strong foundation for fundamental programming concepts.
+
+4. Contact Book
+
+	This is one of the excellent python projects for beginners. Everyone uses a contact book to save contact details, including name, address, phone number, and even email address. This is a command-line project where you will design a contact book application that users can use to save and find contact details. The application should also allow users to update contact information, delete contacts, and list saved contacts. The SQLite database is the ideal platform for saving contacts. 
+
+5. Story Generator
+
+	This is a fun but exciting python project which will work wonders with kids. In a nutshell, the program will ask users for inputs such as the name of a place, action, etc. and then build a story around the data. The story will be the same always but with little variation with the input.
+
+6. What’s the word?
+
+	This name focuses on the user having to guess the randomly generated word. You can create a list from which the word would have to be guessed and also set a cap on the number of guesses allowed.
+
+	After this, you can create the rules yourself! When the user inputs the word, you can indicate whether the alphabet written appears in this particular position or not. You will need a function to check if the user is inputting alphabets or numbers and to display error messages appropriately.
+
+7. Calculator
+
+	Although there isn’t much use of a calculator, however, building your graphical UI calculator will make you familiar with a library like Tkinter in which you can create buttons to perform different operations and display results on a screen.
+
+8. Countdown Clock and Timer
+
+	It is another utility app in which the user can set a timer, and the app notifies you when time is up.
+
+9. Random Password Generator
+	
+	Creating a strong password and remembering it is a tedious task. You can build a program that intakes some words from the user and then generates a random password using those words. The user can remember the password with the help of the words he gave as an input.
+
+	Keep track of all the passwords hint.
+
+10. Currency converter
+
+	This is a simple GUI application that you can develop using Python. As you can guess by the name, you will build a currency converter that can convert currencies from one unit to another, for example, converting Indian rupee into pound or euro.
+
+	The design of this application will be straightforward – the main focus should be the primary function, that is, converting currency units from one to another. You can use Tkinter, the standard Python interface to the Tk GUI toolkit shipped along with Python.
+
+11. Post-it Notes
+
+	Post-it notes are an excellent way to note down trivial chores so that you don’t forget to do them. In this project, we’ll make a virtual version of the physical, adhesive post-it notes. The main goal of building this application is to allow users to carry their post-it notes wherever they go (since it is on a digital platform).
+
+	The application should have an option for account creation, different layouts for post-it notes, and a categorization feature to allow users to segment their notes. You can consider using Django for this project since it has an in-built user authentication feature.
+
+12. Quiz Application
+
+	This is one of the interesting python project ideas to create. This is a standard quiz application that presents a set of carefully curated questions to the users (a questionnaire), allows them to answer the same, and displays the correct answer if they are wrong. Each test will display the final score of the user. The application will have an account creation option, wherein some users can be appointed as Admins.
+
+	These Admins can create tests for other users. In this way, the tests and quizzes continue to be updated. This application requires a database to store all the questions, answers, and scores of the users. You can also include additional features like timers for tests.
+
+13. Login System
+
+	Implement a basic template of a login system and then you can use the template in any web app with just minimal changes to quickly build the web apps. Nowadays every website requires their customers to create accounts therefore this template will be very useful.
+
+14. Text to HTML Generator
+
+	This is an interesting project in which you can build an interface from where you can specify the text and with just a button, it will generate an HTML web page with some stylings. This is useful for creating rapid online documentation of projects.
+
+15. Chat App
+
+	Create a simple chat app where you can create chat rooms and users will chat in real-time. You don’t need to store all the previous chat records as you can display only a few recent chats and older chats will be deleted.
+
+16. Notes App
+
+	In this project, you have to build a nice interface for a notes application. You should provide functionalities for a user to add, edit and delete notes from the application. Also, provide a feature to add images in the notes.
+
+17. Video Chatting Website
+
+	A website where you can connect with your friends and have one to one video chat with them. It would be fun and you will get to understand how we can send video streams through a connection.
+
+18. Blog App
+
+	Making a blog website is a great project to showcase in your portfolio. Customize the design of the blog to match the blog’s theme and you can provide the functionality to add a blog for the admin and other viewers can read your blogs and post comments.

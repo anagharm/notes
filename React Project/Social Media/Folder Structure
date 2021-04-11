@@ -1,0 +1,21 @@
+- server (API)
+- Client (React)
+	- Layout
+		- Wall
+			- Header
+			- Content
+			- Footer
+		- PersonalProfile
+			- Header
+			- Content
+			- Footer
+		- SignupLogin
+			- Header
+			- Content
+			- Footer
+	- About
+		- Basic (Name, Address, Date of Birthday, Gender, Profile Picture, Cover Page)
+	- Posts (Description, Photos, Likes, Comments)
+	- Blogs (Title, Description, Picture, Likes, Comments)
+	- Stories (Photos, Likes, Comments)
+	- Friends ()

@@ -1,0 +1,1000 @@
+942  exit
+  943  /usr/bin/env
+  944  python3 manage.py startapp products
+  945  pip install django
+  946  django-admin startproject pyshop .
+  947  python3 manage.py runserver
+  948  /usr/bin/env
+  949  python3 manage.py manage.py makemigrations
+  950  python3 manage.py  makemigrations
+  951  python3 manage.py migrate
+  952  python3 manage.py  makemigrations
+  953  python3 manage.py migrate
+  954  python3 manage.py  makemigrations
+  955  python3 manage.py migrate
+  956  clear
+  957  python3 manage.py createsupperuser
+  958  clear
+  959  python3 manage.py createsuperuser
+  960  python3 manage.py  makemigrations
+  961  python3 manage.py migrate
+  962  python3 manage.py makemigrations
+  963  python3 manage.py migrate
+  964  clear
+  965  python3 manage.py runserver
+  966  /usr/bin/env
+  967  sudo apt-get update
+  968  sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+  969  sudo apt-get update
+  970  sudo apt-get install sqlitebrowser
+  971  /usr/bin/env
+  972  pip --version
+  973  pip3 --version
+  974  python --version
+  975  python3 --version
+  976  pip3 --version
+  977  djang-admin --version
+  978  django-admin --version
+  979  /usr/bin/env
+  980  pip3 -v
+  981  pip3 -V
+  982  pip --version
+  983  python3 --version
+  984  python3.7 -m pip install pip
+  985  sudo apt-get install python
+  986  sudo apt-get install python3.7
+  987  pip --version
+  988  python3.7 -m pip install pip
+  989  pip --version
+  990  pip3 --version
+  991  python3 --version
+  992  clear
+  993  django-admin --version
+  994  clear
+  995  sudo apt-get update && sudo apt-get -y upgrade
+  996  clear
+  997  pip3 install virtualenv
+  998  virtualenv --version
+  999  pip3 install virtualenv
+ 1000  virtualenv --version
+ 1001  sudo pip3 install virtualenv
+ 1002  virtualenv --version
+ 1003  mkdir test
+ 1004  cd test/
+ 1005  virtualenv env
+ 1006  pip install virtualenvwrapper-win
+ 1007  mkvirtualenv test
+ 1008  virtualenv env
+ 1009  exit
+ 1010  pip install virtualenv
+ 1011  virtualenv env
+ 1012  pip install virtualenv
+ 1013  pip list
+ 1014  clear
+ 1015  mkdir Environments
+ 1016  cd Environments/
+ 1017  ls -la
+ 1018  clear
+ 1019  virtualenv project1_env
+ 1020  ls -la
+ 1021  cd project1_env/
+ 1022  ls -la
+ 1023  clear
+ 1024  ls -la
+ 1025  cd ..
+ 1026  source project1_env/bin/activate
+ 1027  clear
+ 1028  which python
+ 1029  clear
+ 1030  which pip
+ 1031  pip list
+ 1032  clear
+ 1033  pip install numpy
+ 1034  pip install pytz
+ 1035  pip install psutil
+ 1036  python3.6 -m pip install psutil
+ 1037  clear
+ 1038  pip list
+ 1039  python3.7 -m pip install psutil
+ 1040  python3 --version
+ 1041  python3.7.9 -m pip install psutil
+ 1042  clear
+ 1043  /usr/bin/env
+ 1044  virtualenv project1_env
+ 1045  source project1_env/
+ 1046  source project1_env/bin/activate
+ 1047  clear
+ 1048  python manage.py runserver
+ 1049  exit
+ 1050  python manage.py startapp blog
+ 1051  python manage.py runserver
+ 1052  python manage.py startapp blog
+ 1053  virtualenv django_env
+ 1054  source django_env/bin/activate
+ 1055  clear
+ 1056  pip install django
+ 1057  python -m django --version
+ 1058  clear
+ 1059  django-admin
+ 1060  clear
+ 1061  django-admin startproject django_project
+ 1062  ls -la
+ 1063  cd django_project/
+ 1064  clear
+ 1065  p
+ 1066  python manage.py runserver
+ 1067  python -m django --version
+ 1068  pip install django
+ 1069  python manage.py runserver
+ 1070  python manage.py startapp blog
+ 1071  ls -la
+ 1072  python manage.py runserver
+ 1073  /usr/bin/env
+ 1074  python manage.py runserver
+ 1075  exit
+ 1076  /usr/bin/env
+ 1077  django-admin startproject pyshop .
+ 1078  history
+ 1079  django-admin
+ 1080  clear
+ 1081  ls -la
+ 1082  cd django_project/
+ 1083  clear
+ 1084  django-admin startproject pyshop .
+ 1085  python manage.py runserver
+ 1086  clear
+ 1087  virtualenv django-admin
+ 1088  history
+ 1089  source django-admin/bin/activate
+ 1090  clear
+ 1091  python manage.py runserver
+ 1092  history
+ 1093  python manage.py startapp blog
+ 1094  cd ..
+ 1095  ls -la
+ 1096  rm -rf django_project
+ 1097  ls -la
+ 1098  clear
+ 1099  ls -la
+ 1100  exit
+ 1101  /usr/bin/env
+ 1102  source django_env/bin/activate
+ 1103  cd django_project/
+ 1104  clear
+ 1105  python manage.py runserver
+ 1106  clear
+ 1107  python manage.py makemigrations
+ 1108  clear
+ 1109  python manage.py makemigrations
+ 1110  python manage.py runserver
+ 1111  clear
+ 1112  python manage.py sqlmigrate blog 0001
+ 1113  python manage.py migrate
+ 1114  python manage.py shell
+ 1115  clear
+ 1116  python manage.py shell
+ 1117  clear
+ 1118  python manage.py runserver
+ 1119  exit
+ 1120  /usr/bin/env
+ 1121  history
+ 1122  clear
+ 1123  virtualenv ana_clm
+ 1124  ls -la
+ 1125  clear
+ 1126  source ana_clm/bin/activate
+ 1127  pip install numpy
+ 1128  pip install pytz
+ 1129  python3.6 -m pip install psutil
+ 1130  pip install django
+ 1131  python -m django --version
+ 1132  clear
+ 1133  django-admin startproject aclm
+ 1134  ls -la
+ 1135  cd aclm
+ 1136  ls -la
+ 1137  python manage.py runserver
+ 1138  python manage.py startapp staff
+ 1139  exit
+ 1140  /usr/bin/env
+ 1141  cd ~/Madhavi/Project
+ 1142  source ana_clm/bin/activate
+ 1143  cd aclm
+ 1144  python manage.py runserver
+ 1145  clear
+ 1146  python manage.py makemigrations
+ 1147  python manage.py createsuperuser
+ 1148  clear
+ 1149  python manage.py migrate
+ 1150  python manage.py createsuperuser
+ 1151  python manage.py migrate
+ 1152  clear
+ 1153  python manage.py runserver
+ 1154  clear
+ 1155  pip install django-crispy-forms
+ 1156  python manage.py runserver
+ 1157  clear
+ 1158  python manage.py runserver
+ 1159  exit
+ 1160  /usr/bin/env
+ 1161  source ana_clm/bin/activate
+ 1162  clear
+ 1163  ls -la
+ 1164  cd aclm/
+ 1165  python manage.py runserver
+ 1166  clear
+ 1167  python manage.py startapp cafe
+ 1168  python manage.py runserver
+ 1169  clear
+ 1170  python manage.py runserver
+ 1171  clear
+ 1172  python manage.py runserver
+ 1173  clear
+ 1174  python manage.py migrate
+ 1175  python manage.py makemigrations
+ 1176  python manage.py runserver
+ 1177  python manage.py migrate
+ 1178  python manage.py runserver
+ 1179  exit
+ 1180  /usr/bin/env
+ 1181  cd ~/Madhavi/Project
+ 1182  source ana_clm/bin/activate
+ 1183  cd aclm
+ 1184  python manage.py runserver
+ 1185  pip install Pillow
+ 1186  python manage.py runserver
+ 1187  python manage.py makemigrations
+ 1188  python manage.py migrate
+ 1189  clear
+ 1190  python manage.py runserver
+ 1191  clear
+ 1192  python manage.py runserver
+ 1193  clear
+ 1194  python manage.py runserver
+ 1195  clear
+ 1196  python manage.py runserver
+ 1197  exit
+ 1198  /usr/bin/env
+ 1199  cd ~/Madhavi/Project
+ 1200  source ana_clm/bin/activate
+ 1201  clear
+ 1202  cd aclm/
+ 1203  ls -la
+ 1204  python manage.py runserver
+ 1205  clear
+ 1206  python manage.py makemigrations
+ 1207  python manage.py migrate
+ 1208  clear
+ 1209  python manage.py runserver
+ 1210  clear
+ 1211  python manage.py makemigrations
+ 1212  python manage.py migrate
+ 1213  python manage.py runserver
+ 1214  exit
+ 1215  /usr/bin/env
+ 1216  ls -l ~/Downloads/
+ 1217  cd  ~/Downloads/
+ 1218  clear
+ 1219  ls -l ~/Downloads/
+ 1220  chmod +x ~/Downloads/genymotion-3.0.2-linux_x64.bin
+ 1221  sudo chmod +x ~/Downloads/genymotion-3.0.2-linux_x64.bin
+ 1222  sudo chmod +x ~/Downloads/genymotion-3.1.1-linux_x64.bin 
+ 1223  sudo  ~/Downloads/genymotion-3.1.1-linux_x64.bin 
+ 1224  exit
+ 1225  sudo apt update
+ 1226  sudo apt install virtualbox
+ 1227  exit
+ 1228  cd Madhavi/Project/
+ 1229  ls -la
+ 1230  cd ..
+ 1231  ls -la
+ 1232  cd Python/
+ 1233  ls -la
+ 1234  cd django\ Tutorial/
+ 1235  ls -la
+ 1236  cd Environments/
+ 1237  ls -la
+ 1238  source ana_clm/bin/activate
+ 1239  source django_admin/bin/activate
+ 1240  source django_env/bin/activate
+ 1241  clear
+ 1242  ls -la
+ 1243  cd django_project/
+ 1244  python manage.py runserver
+ 1245  clear
+ 1246  pip install Pillow
+ 1247  python manage.py runserver
+ 1248  clear
+ 1249  cd ..
+ 1250  ls -la
+ 1251  clear
+ 1252  exit
+ 1253  /usr/bin/env
+ 1254  cd Madhavi/Project/
+ 1255  ls -la
+ 1256  source ana_clm/bin/activate
+ 1257  pip install django
+ 1258  python -m django --version
+ 1259  clear
+ 1260  python --version
+ 1261  clear
+ 1262  django-admin
+ 1263  clear
+ 1264  django-admin startproject blog_site
+ 1265  ls -la
+ 1266  cd blog_site/
+ 1267  clear
+ 1268  python manage.py runserver
+ 1269  clear
+ 1270  python manage.py startapp blog
+ 1271  python manage.py runserver
+ 1272  /usr/bin/env
+ 1273  sudo apt-get update
+ 1274  sudo apt-get upgrade
+ 1275  wget https://salilab.org/modeller/9.22/modeller-9.22.tar.gz
+ 1276  tar xvzf modeller-9.22.tar.gz
+ 1277  cd modeller-9.22
+ 1278  clear
+ 1279  ls -la
+ 1280  ./Install 
+ 1281  python modeller_script.py
+ 1282  ls -la
+ 1283  ./Install 
+ 1284  /usr/bin/env
+ 1285  mkdir neshwa_api
+ 1286  cd neshwa_api/
+ 1287  npm init -y
+ 1288  clear
+ 1289  npm install --save express
+ 1290  clear
+ 1291  npm install --save-dev nodemon
+ 1292  npm install --save morgan
+ 1293  npm install --save body-parser
+ 1294  npm install --save mongoose
+ 1295  npm install --save bcrypt
+ 1296  npm install --save jsonwebtoken
+ 1297  npm install --save nodemailer
+ 1298  npm install --save moment
+ 1299  clear
+ 1300  npm start
+ 1301  clear
+ 1302  npm start
+ 1303  clear
+ 1304  npm start
+ 1305  ls -la
+ 1306  clear
+ 1307  ls -la
+ 1308  clear
+ 1309  npm start
+ 1310  clear
+ 1311  npm start
+ 1312  npm i request-promise
+ 1313  exit
+ 1314  /usr/bin/env
+ 1315  npm start
+ 1316  npm install request --save
+ 1317  npm start
+ 1318  clear
+ 1319  npm start
+ 1320  /usr/bin/env
+ 1321  mongod --version
+ 1322  clear
+ 1323  mongod -version
+ 1324  mongo
+ 1325  exit'
+ 1326  exit
+ 1327  mkdir empDB
+ 1328  cd empDB/
+ 1329  npm init -y
+ 1330  npm install --save express
+ 1331  npm install --save-dev nodemon
+ 1332  npm install --save morgan
+ 1333  npm install --save body-parser
+ 1334  npm install --save mongoose
+ 1335  npm install --save nano server.js
+ 1336  nano server.js
+ 1337  nano app.js
+ 1338  nano package.json 
+ 1339  mkdir api
+ 1340  cd api/
+ 1341  npm start
+ 1342  ls -la
+ 1343  cd ..
+ 1344  clear
+ 1345  npm start
+ 1346  clear
+ 1347  npm start
+ 1348  clear
+ 1349  npm start
+ 1350  exit
+ 1351  /usr/bin/env
+ 1352  npm start
+ 1353  exit
+ 1354  /usr/bin/env
+ 1355  npm start
+ 1356  exit
+ 1357  mongo
+ 1358  exit
+ 1359  /usr/bin/env
+ 1360  npm start
+ 1361  ls -la
+ 1362  npm install
+ 1363  npm start
+ 1364  cd ..
+ 1365  ls -la
+ 1366  cd Neshwa
+ 1367  ls -la
+ 1368  cd neshwa_api
+ 1369  ls -la
+ 1370  clear
+ 1371  npm init - y
+ 1372  ls -la
+ 1373  npm init -y
+ 1374  npm install --save express
+ 1375  npm install --save-dev nodemon
+ 1376  npm install --save morgan
+ 1377  npm install --save body-parser
+ 1378  npm install --save mongoose
+ 1379  npm install --save bcrypt
+ 1380  npm install --save jsonwebtoken
+ 1381  npm install --save nodemailer
+ 1382  npm install --save moment
+ 1383  npm start
+ 1384  clear
+ 1385  npm start
+ 1386  exit
+ 1387  /usr/bin/env
+ 1388  git stash
+ 1389  git pull origin master
+ 1390  git stash pop
+ 1391  git add .
+ 1392  git add *
+ 1393  git commit -m "Anagha added documents"
+ 1394  git push origin master
+ 1395  clear
+ 1396  exit
+ 1397  ssh -i ~/Desktop/amazon/neshwaDevelopment.pem ubuntu@ec2-122-170-250-81.us-east-2.compute.amazonaws.com
+ 1398  exit
+ 1399  ssh -i ~/Desktop/amazon/neshwaDevelopment.pem ubuntu@ec2-122-170-250-81.us-east-2.compute.amazonaws.com
+ 1400  ssh -i ~/Desktop/amazon/neshwaDevelopment.pem neshwa@ec2-122-170-250-81.us-east-2.compute.amazonaws.com
+ 1401  ssh -i ~/Desktop/amazon/neshwaDevelopment.pem neshwa@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1402  clear
+ 1403  ssh -i ~/Desktop/amazon/neshwaDevelopment.pem neshwa@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1404  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1405  exit
+ 1406  /usr/bin/env
+ 1407  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1408  clear
+ 1409  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1410  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1411  ping http://18.223.28.42/
+ 1412  /usr/bin/env
+ 1413  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1414  exit
+ 1415  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1416  clear
+ 1417  ping 3.136.80.124
+ 1418  clear
+ 1419  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1420  ping 3.136.80.124
+ 1421  clear
+ 1422  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-18-223-28-42.us-east-2.compute.amazonaws.com
+ 1423  /usr/bin/env
+ 1424  cd ..
+ 1425  ls -la
+ 1426  cd ..
+ 1427  ls -la
+ 1428  cd 'Neshwa Documents'
+ 1429  ls -la
+ 1430  cd 'Online Documents'
+ 1431  ls -la
+ 1432  sudo apt-get install unrar
+ 1433  sudo apt-get install unrar --fix-missing
+ 1434  ls -la
+ 1435  unrar e 'Neshwa 23 Sept 2020.rar'
+ 1436  npm start
+ 1437  git stash
+ 1438  git pull origin master
+ 1439  git stash pop
+ 1440  git add .
+ 1441  git add *
+ 1442  git commit -m "Anagha added code for adding business and get it."
+ 1443  git push origin master
+ 1444  clear
+ 1445  history
+ 1446  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1447  cd Desktop/
+ 1448  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1449  cd amazon/
+ 1450  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1451  clear
+ 1452  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1453  exit
+ 1454  /usr/bin/env
+ 1455  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1456  exit
+ 1457  npm start
+ 1458  git stash
+ 1459  git pull origin master
+ 1460  git stash pop
+ 1461  git add .
+ 1462  git add *
+ 1463  git commit -m "Anagha updated the business structure"
+ 1464  git push origin master
+ 1465  npm start
+ 1466  git add .
+ 1467  git add *
+ 1468  git commit -m "Anagha added delete method for business"
+ 1469  git push origin master
+ 1470  exit
+ 1471  /usr/bin/env
+ 1472  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1473  exit
+ 1474  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1475  exit
+ 1476  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1477  clear
+ 1478  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1479  exit
+ 1480  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1481  exit
+ 1482  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1483  exit
+ 1484  npm start
+ 1485  git stash
+ 1486  git pull origin master
+ 1487  git stash pop
+ 1488  git add .
+ 1489  git add *
+ 1490  git commit -m "Anagha updated the business list structure"
+ 1491  git push origin master
+ 1492  clear
+ 1493  npm start
+ 1494  npm i moment
+ 1495  npm start
+ 1496  npm install --save moment
+ 1497  npm start
+ 1498  clear
+ 1499  git stash
+ 1500  git pull origin master
+ 1501  git stash pop
+ 1502  git add .
+ 1503  git add *
+ 1504  git commit -m "Anagha added post methods for business listing"
+ 1505  git push origin master
+ 1506  clear
+ 1507  npm start
+ 1508  mongod --version
+ 1509  clear
+ 1510  mongod --version
+ 1511  clear
+ 1512  npm start
+ 1513  git stash
+ 1514  git pull origin master
+ 1515  git stash pop
+ 1516  git add .
+ 1517  git add *
+ 1518  git commit -m "Anagha updated the fetch business api"
+ 1519  git push origin master
+ 1520  npm start
+ 1521  git stash
+ 1522  git pull origin master
+ 1523  git stash pop
+ 1524  git add .
+ 1525  git add *
+ 1526  git commit -m "Anagha corrected the fetch of business API"
+ 1527  git push origin master
+ 1528  npm start
+ 1529  git stash
+ 1530  git pull origin master
+ 1531  git stash pop
+ 1532  git add .
+ 1533  git add *
+ 1534  git commit -m "Anagha added more pages in Business API"
+ 1535  git push origin master
+ 1536  npm start
+ 1537  git stash
+ 1538  git pull origin master
+ 1539  git stash pop
+ 1540  git add .
+ 1541  git add *
+ 1542  git commit -m "Anagha updated the productServices in Business Fetch API"
+ 1543  git push origin master
+ 1544  clear
+ 1545  npm start
+ 1546  git stash
+ 1547  git pull origin master
+ 1548  git stash pop
+ 1549  git add .
+ 1550  git add *
+ 1551  git commit -m "Anagha updated customer review"
+ 1552  git push origin master
+ 1553  exit
+ 1554  /usr/bin/env
+ 1555  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1556  exit
+ 1557  ping http://www.neshwaapi.winwinit.in/
+ 1558  ping www.neshwaapi.winwinit.in
+ 1559  exit
+ 1560  /usr/bin/env
+ 1561  npm start
+ 1562  clear
+ 1563  git stash
+ 1564  git pull origin master
+ 1565  git stash pop
+ 1566  git add .
+ 1567  git add *
+ 1568  git commit -m "Anagha added the users pic field"
+ 1569  git push origin master
+ 1570  exit
+ 1571  /usr/bin/env
+ 1572  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1573  clear
+ 1574  npm start
+ 1575  git stash
+ 1576  git pull origin master
+ 1577  git stash pop
+ 1578  git add .
+ 1579  git add *
+ 1580  git commit -m "Anagha updated the business Fetch API"
+ 1581  git push origin master
+ 1582  exit
+ 1583  /usr/bin/env
+ 1584  git stash
+ 1585  git pull origin master
+ 1586  git stash pop
+ 1587  git add .
+ 1588  git add *
+ 1589  git commit -m "Anagha updated app and nodemon file"
+ 1590  git push origin master
+ 1591  /usr/bin/env
+ 1592  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1593  /usr/bin/env
+ 1594  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1595  npm start
+ 1596  git stash
+ 1597  git pull origin master
+ 1598  git stash pop
+ 1599  git add .
+ 1600  git add *
+ 1601  git commit -m "Anagha added new fields to business collection"
+ 1602  git push origin master
+ 1603  npm start
+ 1604  /usr/bin/env
+ 1605  npm start
+ 1606  exit
+ 1607  /usr/bin/env
+ 1608  npm start
+ 1609  /usr/bin/env
+ 1610  sudo update-manager -c
+ 1611  sudo do-release-upgrade -d
+ 1612  /usr/bin/env
+ 1613  sudo get-apt upgrade
+ 1614  cat /etc/lsb-release
+ 1615  sudo apt update
+ 1616  sudo apt upgrade -y
+ 1617  /usr/bin/env
+ 1618  sudo apt --purge autoremove
+ 1619  sudo apt install update-manager-core -y
+ 1620  sudo do-release-upgrade
+ 1621  reboot
+ 1622  /usr/bin/env
+ 1623  cd /home/
+ 1624  ls -la
+ 1625  cd user/
+ 1626  ls -la
+ 1627  cd winwinit/
+ 1628  clear
+ 1629  ls -la
+ 1630  cd Neshwa
+ 1631  ls -la
+ 1632  cd NeshwaNode/
+ 1633  npm start
+ 1634  exit
+ 1635  sudo  apt-get update
+ 1636  sudo  apt-get upgrade
+ 1637  sudo  apt update
+ 1638  sudo apt-get dist-upgrade
+ 1639  /usr/bin/env
+ 1640  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1641  exit
+ 1642  /usr/bin/env
+ 1643  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1644  exit
+ 1645  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1646  git stash
+ 1647  git pull origin master
+ 1648  git stash pop
+ 1649  npm start
+ 1650  git add .
+ 1651  git add *
+ 1652  git commit -m "Anagha"
+ 1653  git push origin master
+ 1654  clear
+ 1655  npm start
+ 1656  git stash
+ 1657  git pull origin master
+ 1658  git stash pop
+ 1659  git status
+ 1660  npm start
+ 1661  clear
+ 1662  npm start
+ 1663  git add .\
+ 1664  git add .
+ 1665  git add *
+ 1666  git commit -m "Anagha adding user details"
+ 1667  git push origin master
+ 1668  npm start
+ 1669  git add .
+ 1670  git add *
+ 1671  git commit -m "Anagha working on stories"
+ 1672  git push origin master
+ 1673  git pull origin master
+ 1674  /usr/bin/env
+ 1675  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1676  clear
+ 1677  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1678  exit
+ 1679  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1680  exit
+ 1681  npm start
+ 1682  git stash
+ 1683  git pull origin master
+ 1684  git stash pop
+ 1685  git add .
+ 1686  git add *
+ 1687  git commit -m "Anagha working on user Profile"
+ 1688  git push origin master
+ 1689  npm start
+ 1690  git stash
+ 1691  git pull origin master
+ 1692  git stash pop
+ 1693  git add .
+ 1694  git add *
+ 1695  git commit -m "Anagha working on product"
+ 1696  git add .
+ 1697  git add *
+ 1698  git commit -m "Anagha working on user profile"
+ 1699  git push origin master
+ 1700  exit
+ 1701  /usr/bin/env
+ 1702  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1703  exit
+ 1704  mongo
+ 1705  clear
+ 1706  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1707  npm start
+ 1708  git stash
+ 1709  git pull origin master
+ 1710  git stash pop
+ 1711  git add ,
+ 1712  git add .
+ 1713  git add *
+ 1714  git commit -m "Anagha working on user profile posts"
+ 1715  git push origin master
+ 1716  npm start
+ 1717  git stash
+ 1718  git pull origin master
+ 1719  git stash pop
+ 1720  git add .
+ 1721  git add *
+ 1722  git commit -m "Anagha working on userprofile goals"
+ 1723  git push origin master
+ 1724  npm start
+ 1725  git add .
+ 1726  git add *
+ 1727  git commit -m "Anagha worked on userprofile product n services"
+ 1728  git push origin master
+ 1729  /usr/bin/env
+ 1730  ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+ 1731  exit
+ 1732  npm start
+ 1733  git stash
+ 1734  git pull origin master
+ 1735  git stash pop
+ 1736  git add *
+ 1737  git add .
+ 1738  git commit -m "Anagha working on userprofile family posts"
+ 1739  git push origin master
+ 1740  npm start
+ 1741  git stash
+ 1742  git pull origin master
+ 1743  git stash pop
+ 1744  git add *'
+ 1745  git add *
+ 1746  git add .
+ 1747  git commit -m "Anagha working on userprofile family post"
+ 1748  git push origin master
+ 1749  exit
+ 1750  /usr/bin/env
+ 1751  git clone https://github.com/TwilioDevEd/twiliochat-node.git
+ 1752  ls -la
+ 1753  cd ..
+ 1754  git clone https://github.com/TwilioDevEd/twiliochat-node.git
+ 1755  cd twiliochat-node/
+ 1756  npm install
+ 1757  node install.js
+ 1758  ls -la
+ 1759  rm -rf node_modules/
+ 1760  npm install
+ 1761  npm audit fix
+ 1762  npm start
+ 1763  exit
+ 1764  /usr/bin/env
+ 1765  git clone https://github.com/twilio/video-quickstart-js.git
+ 1766  cd video-quickstart-js/
+ 1767  ls -la
+ 1768  cp .env.template .env
+ 1769  npm install
+ 1770  npm start
+ 1771  clear
+ 1772  django-admin startproject todo
+ 1773  sudo apt install python3-django
+ 1774  django-admin startproject todo
+ 1775  cd todo/
+ 1776  python manage.py runserver
+ 1777  python3 manage.py runserver
+ 1778  clear
+ 1779  python3 manage.py migrates
+ 1780  python3 manage.py migrate
+ 1781  python3 manage.py createsuperuser
+ 1782  python3 manage.py runserver
+ 1783  clear
+ 1784  python3 manage.py startapp tasks
+ 1785  python3 manage.py runserver
+ 1786  python3 manage.py migrate
+ 1787  python3 manage.py makemigrations
+ 1788  python3 manage.py migrate
+ 1789  python3 manage.py runserver
+ 1790  npm start
+ 1791  exit
+ 1792  node server.js
+ 1793  exit
+ 1794  /usr/bin/env
+ 1795  npm start
+ 1796  exit
+ 1797  /usr/bin/env
+ 1798  npm start
+ 1799  git stash
+ 1800  cd ..
+ 1801  c ls -la
+ 1802  ls -la
+ 1803  cd react-chat-interface/
+ 1804  node server.js
+ 1805  cd ..
+ 1806  clear
+ 1807  git clone https://github.com/TwilioDevEd/twiliochat-node
+ 1808  clear
+ 1809  git clone https://github.com/kevinthompson/react-chat-interface
+ 1810  cd react-chat-interface
+ 1811  npm install
+ 1812  npm audit fix
+ 1813  npm start
+ 1814  npm install --save jquery
+ 1815  npm audit fix
+ 1816  npm start
+ 1817  npm install --save twilio-chat
+ 1818  npm audit fix
+ 1819  npm start
+ 1820  npm install
+ 1821  npm audit fix
+ 1822  npm start
+ 1823  exit
+ 1824  npm install --save express dotenv twilio chance
+ 1825  npm audit fix
+ 1826  node server.js
+ 1827  exit
+ 1828  cd ..
+ 1829  git clone https://github.com/twilio/twilio-chat-demo-js.git
+ 1830  cd twilio-chat-demo-js/
+ 1831  ls -la
+ 1832  cp credentials.example.json credentials.json 
+ 1833  ls -la
+ 1834  npm install
+ 1835  npm start
+ 1836  cd ..
+ 1837  clear
+ 1838  git clone https://github.com/philnash/react-programmable-chat.git
+ 1839  cd react-programmable-chat/
+ 1840  ls -la
+ 1841  cp .env.example .env
+ 1842  npm install
+ 1843  npm audit fix
+ 1844  npm install
+ 1845  ls -la
+ 1846  cd client/
+ 1847  ls -la
+ 1848  npm install
+ 1849  npm start
+ 1850  cd ..
+ 1851  ls -la
+ 1852  rm -rf node_modules/
+ 1853  npm install
+ 1854  npm audit fix
+ 1855  cd client/
+ 1856  ls -la
+ 1857  rm -rf node_modules/
+ 1858  npm install
+ 1859  npm audit fix
+ 1860  npm start
+ 1861  rm -rf node_modules/
+ 1862  npm install
+ 1863  npm audit fix
+ 1864  npm start
+ 1865  rm -rf node_modules/
+ 1866  npm install
+ 1867  npm audit fix
+ 1868  npm start
+ 1869  rm -rf node_modules/
+ 1870  npm install
+ 1871  npm audit fix
+ 1872  npm install
+ 1873  npm audit fix
+ 1874  npm start
+ 1875  cd ..
+ 1876  git clone https://github.com/danielprabhakaran-n/react-twillio-chat.git
+ 1877  cd react-twillio-chat/
+ 1878  npm install
+ 1879  npm audit fix
+ 1880  npm start
+ 1881  npm test
+ 1882  npm start
+ 1883  cd ..
+ 1884  git clone https://github.com/tylert88/React-Twilio-Chat.git
+ 1885  cd React-Twilio-Chat/
+ 1886  npm install
+ 1887  npm audit fix
+ 1888  rm -rf node_modules/
+ 1889  npm install
+ 1890  npm audit fix
+ 1891  npm start
+ 1892  ls -la
+ 1893  npm start
+ 1894  node index.js 
+ 1895  npm run server
+ 1896  npm start
+ 1897  exit
+ 1898  node start-client.js
+ 1899  ls -la
+ 1900  npm start
+ 1901  npm run client
+ 1902  npm run start-client
+ 1903  npm start
+ 1904  cd ..
+ 1905  git clone https://github.com/anthonydelgado/twilio-frame-chat-example.git
+ 1906  cd twilio-frame-chat-example/
+ 1907  npm install
+ 1908  npm audit fix
+ 1909  npm start
+ 1910  cd ..
+ 1911  ls -la
+ 1912  cd react-chat-interface
+ 1913  node server.js 
+ 1914  exit
+ 1915  /usr/bin/env
+ 1916  npm start
+ 1917  clear
+ 1918  npm start
+ 1919  cd ..
+ 1920  clear
+ 1921  ls -la
+ 1922  cd twilio-chat-demo-js/
+ 1923  npm start
+ 1924  ls -la
+ 1925  clear
+ 1926  npm start
+ 1927  ls -la
+ 1928  rm -rf node_modules/
+ 1929  npm install
+ 1930  node server.js 
+ 1931  npm install
+ 1932  npm start
+ 1933  clear
+ 1934  npm start
+ 1935  node server.js
+ 1936  exit
+ 1937  /usr/bin/env
+ 1938  npm start
+ 1939  exit
+ 1940  /usr/bin/env
+ 1941  history

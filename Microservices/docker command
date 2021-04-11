@@ -1,0 +1,21 @@
+- docker run <process>
+- docker ps 
+	- to see all the runing the processes currently running
+- docker ps --all
+	- to see all the process were running
+- docker create <process>
+- docker start -a <process id>
+- docker system prune
+	- remove all the stoped images, also clear the build cache
+- docker logs <containerId>
+	- prints all the logs
+- docker stop <containerId>
+	- stops the container after 10 sec
+	- If after 10 sec it is not stop then kill command is executed
+- docker kill <containerId>
+	-kills the container without any delay
+- docker exec -it <container id> <command>
+	- Execute an additional command in a container
+- docker exec -it <container id> sh
+	- run the command in the container
+

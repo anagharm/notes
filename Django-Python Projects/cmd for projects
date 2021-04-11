@@ -1,0 +1,49 @@
+> django-admin startproject smallprojects
+> python3 manage.py runserver
+> python3 manage.py migrate
+> python3 manage.py createsuperuser
+> python3 manage.py runserver
+> python3 manage.py startapp userLogin
+> python3 manage.py makemigrations
+> python3 manage.py migrate
+> python -m django --version
+
+Install crispy-forms
+> pip3 install django-crispy-forms
+For connecting to MongoDb we need to install
+> pip3 install djongo
+In Setting.py file change the DATABASES to 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'projects',
+    }
+}
+
+#using ImageFields in project we need to install Pillow
+> pip3 install Pillow	
+
+
+
+
+
+Admin User Details:
+
+username	: admin
+email 		: anaghacla@gmail.com
+password 	: A naghaR1@
+
+username : shekhar
+password : testing321
+=================================
+Packages:
+=================================
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}

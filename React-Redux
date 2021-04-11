@@ -1,0 +1,5 @@
+npm install react-bootstrap bootstrap --save
+
+npm install bootstrap axios popper.js react-redux react-router-dom redux redux-api-middleware redux-thunk --save
+
+npm i --save axios

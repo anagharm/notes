@@ -1,0 +1,21 @@
+ssh -i "neshwaDevelopment.pem" ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com
+
+scp -r -i "neshwaDevelopment.pem" /home/user/Desktop/amazon/STAR_winwinit_in ubuntu@ec2-3-136-80-124.us-east-2.compute.amazonaws.com:/home/ubuntu/neshwa/sslcert
+
+
+/home/ubuntu/neshwa/sslcert/STAR_winwinit_in
+
+
+server {
+
+listen 443 ssl;
+
+ssl_certificate /etc/ssl/neshwa2020/STAR_winwinit_in_chain.crt;
+
+ssl_certificate_key /etc/ssl/neshwa2020/STAR_winwinit_in.key;
+
+root /home/ubuntu/neshwa/NeshwaNode;
+
+server_name www.;
+
+}

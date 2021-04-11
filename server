@@ -1,0 +1,17 @@
+server {
+
+  listen 80;
+  server_name 3.136.80.124 www.neshwadev.winwinit.in neshwadev.winwinit.in;
+
+  root /home/ubuntu/neshwa/NeshwaReact/build;
+
+  index index.html;
+
+  location / {
+      try_files $uri /index.html;
+  }
+
+  access_log /var/log/nginx/qaadmin.access.log;
+  error_log  /var/log/nginx/qaadmin.error.log;
+}
+

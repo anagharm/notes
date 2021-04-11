@@ -1,0 +1,36 @@
+AnaghaRupesh1@
+
+
+FRIENDLY NAME
+Anagha
+
+SID
+SKf64ed30135f2d99ba015f1f1bb6d69a8
+
+KEY TYPE
+Standard
+
+SECRET
+LNQgLUzkgTj9gAeTs1RG6AvJC4b83Qyh
+
+
+
+Created API Key SK10afee5a2f3ee8a122925186482b94b3 and stored the secret using libsecret. See: https://www.twilio.com/console/runtime/api-keys/SK10afee5a2f3ee8a122925186482b94b3
+twilio-cli configuration saved to "/home/user/.twilio-cli/config.json"
+
+
+Web App URL: https://video-app-2475-7228-dev.twil.io?passcode=14212824757228
+Passcode: 142 128 2475 7228
+Expires: Tue Oct 20 2020 13:14:15 GMT+0530
+Room Type: group
+
+
+
+
+Neshwa Twilio Keys:
+
+"accountSid": "AC175515781deef4c5966e7abbbd4d4657",
+  "signingKeySid": "SK3561e853d81c2de57e739498e1d90dab",
+  "signingKeySecret": "d8sY1cQZKgyBKfu5Q48rdQ5EgWDl8AKv",
+  "serviceSid": "IS1eb65b7050c24ea4854f394e518a7f78",
+  "pushCredentialSid": ""

@@ -1,0 +1,145 @@
+Command To Setup REST API Project
+---------------------------------------------------------------------------------------------
+
+> mkdir <project_name>
+> cd <project_name>
+> npm init
+> npm install --save express
+> npm install --save-dev nodemon
+> npm install --save morgan
+> npm install --save body-parser
+> npm install --save mongoose
+> npm install --save bcrypt
+> npm install --save jsonwebtoken
+> npm install --save nodemailer
+> npm install --save moment
+> npm install --save cors
+> npm install --save dotenv-safe 
+> npm install --save express-validator
+> npm start
+> nano server.js
+-----------------------------------------------------------------------------------------------
+                    Content - server.js
+-----------------------------------------------------------------------------------------------
+const http = require('http');
+const app = require('./app'); // app file include
+const port = process.env.PORT || 3006;
+
+const server = http.createServer(app);
+
+server.listen(port);
+-----------------------------------------------------------------------------------------------
+> nano app.js
+-----------------------------------------------------------------------------------------------
+                    Content - app.js
+-----------------------------------------------------------------------------------------------
+const express = require ('express');
+const app = express();
+const morgan = require('morgan');// morgan call next function if problem occure
+const bodyParser = require('body-parser');// this package use to formate json data 
+const mongoose = require ('mongoose');
+
+/*
+
+            Include all the Routes Used
+
+*/
+
+mongoose.connect('mongodb://localhost/<database_name>',{
+	useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+mongoose.promise =global.Promise;
+
+// process.env.MANGO_ATLAS_PW envirnmaent variable name
+app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended: false}));// urlencode true and false simple-body url data
+app.use(bodyParser.json());// it show json data in good manner
+
+app.use((req, res, next) =>{
+	res.header("Access-Control-Allow-origin","*"); // use API from anywhere insted of * we use domain
+	res.header("Access-Control-Allow-Headers","Origin, X-requested-With, Content-Type, Accept, Authorization");
+
+	if (req.method === 'OPTIONS') {
+		req.header('Access-Control-Allow_Methods','PUT, POST, PATCH, DELETE, GET');
+		return res.status(200).json({});
+	}
+	next();
+});
+
+/*
+
+        Call the URL for Routes
+
+*/
+
+// handle all other request which not found 
+app.use((req, res, next) => {
+	const error = new Error('Not Found Manual ERROR');
+	error.status = 404;
+	next(error);
+		// when we get 404 error it send to next 
+});
+
+// it will handel all error in the application
+app.use((error, req, res, next) => {
+	// 500 type error is used when we use database
+	res.status(error.status || 500);
+	res.json({
+		error:{
+			message:error.message
+		}
+	})
+});
+
+module.exports = app;
+
+-----------------------------------------------------------------------------------------------
+> nano package.json
+-----------------------------------------------------------------------------------------------
+                    Content - package.json
+-----------------------------------------------------------------------------------------------
+{
+  "name": "reactapiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.9.1",
+    "osenv": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
+-----------------------------------------------------------------------------------------------
+> nano nodemon.json
+-----------------------------------------------------------------------------------------------
+                    Content - nodemon.js
+-----------------------------------------------------------------------------------------------
+{
+    "env": {
+        "port"      : <port_no>,
+        "JWT_KEY"   : "secret",
+        dbname"     : <dbname>,
+    }
+}
+-----------------------------------------------------------------------------------------------
+> mkdir api
+> cd api
+> mkdir controllers
+> mkdir middlerware
+> mkdir models
+> mkdir Notes
+> mkdir routes
